@@ -1,0 +1,4 @@
+@mixin gradientBackground {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, $soft-violet 0%, $soft-blue 100%);
+}

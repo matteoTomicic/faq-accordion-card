@@ -1,0 +1,15 @@
+@import "typography";
+
+html {
+    @include gradientBackground();
+    min-height: 74rem;
+
+    @media (min-width: $break-tablet) {
+        min-height: 103rem;
+    }
+
+    @media (min-width: $break-desktop) {
+        height: 100vh;
+        min-height: 0;
+    }
+}
